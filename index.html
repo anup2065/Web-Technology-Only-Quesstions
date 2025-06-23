@@ -35,48 +35,141 @@ console.log("The factorial of " + number + " is: " + factorial(number));
     <p><strong>Explanation:</strong> The loop multiplies numbers from 1 to the given number (5), so 1 × 2 × 3 × 4 × 5 = 120.</p>
   </div>
 </li>
-
-      <li><strong>How do you fetch data from database in PHP and display it in form? Describe.</strong></li>
+ <!--Bhusan Start-->
+      <li><strong>How do you fetch data from database in PHP and display it in form? Describe.</strong>
+        <div class="answer">Test answer</div>
+      </li>
       <li><strong>Write short notes on Internet technology.</strong></li>
       <li><strong>Differentiate between server-side and client-side scripting.</strong></li>
       <li><strong>Explain different data types used in JavaScript.</strong></li>
       <li><strong>What is JQuery? Write down its uses.</strong></li>
       <li><strong>What is PHP? Explain its uses and advantages.</strong></li>
+  <!--Bhusan End-->
+  <!--Areej Start-->
       <li><strong>Write down the basis PHP syntax and an example of a PHP program.</strong></li>
       <li><strong>Explain the different operators used in a PHP.</strong></li>
       <li><strong>Write a PHP program to display the largest among three numbers.</strong></li>
       <li><strong>What is Object-based programming? Explain different JavaScript objects.</strong></li>
       <li><strong>Write down the server-side script to create a database, connect with it, create a table and insert data in it.</strong></li>
       <li><strong>Write a JavaScript program to display the current day and time in the following format: Today is: Tuesday. The current time is: 10 PM: 30: 38</strong></li>
+  <!--Areej End-->
+  <!--Diwash Start-->
       <li><strong>Write a PHP script to connect the MySQL database and demonstrate data insertion in table product (id, product_name, price, expire_date, company name).</strong></li>
       <li><strong>Write a PHP program to connect a database name 'employee'.</strong></li>
       <li><strong>Write a PHP program to insert a record in a database name 'employee' with fields id, name and salary.</strong></li>
       <li><strong>Write a PHP program to display all records (according to previous question 4 and 5) of employee's ward who are securing salary greater than Rs. 45,000.</strong></li>
       <li><strong>Write a PHP program to delete a record of an employee whose salary is less than Rs. 30,000.</strong></li>
       <li><strong>Explain form validation using JavaScript with the example.</strong></li>
+  <!--Diwash End-->
+  <!--Aayush Adhikari Start-->
       <li><strong>Define SQL. Write down the SQL queries to create a database, create a table in the database, insert data in the table, and query the data to display it.</strong></li>
       <li><strong>Write a JavaScript program to calculate the simple interest using principal, rate, and time.</strong></li>
       <li><strong>Write a JavaScript program to convert temperatures from Fahrenheit to Celsius.</strong></li>
       <li><strong>Write a JavaScript program to check whether the given number is positive or negative.</strong></li>
       <li><strong>Write a JavaScript program to check if a given number is even or odd.</strong></li>
       <li><strong>Write a JavaScript program to display the largest among three given numbers.</strong></li>
+  <!--Aayush Adhikari End-->
+  <!--Aayush Jha start-->
       <li><strong>Write a JavaScript program to display the reverse of a given number.</strong></li>
       <li><strong>Write a JavaScript program to check if a given number is a palindrome or not.</strong></li>
       <li><strong>Write a JavaScript program to print the largest and smallest numbers among 10 elements of an array.</strong></li>
       <li><strong>Write a JavaScript program to sort the data of an array.</strong></li>
       <li><strong>Write a JavaScript program to reverse a given string.</strong></li>
       <li><strong>Write a JavaScript program to count the number of vowels present in the given string.</strong></li>
+  <!--Aayush Jha end-->
+  <!--Aayush Shah start-->
       <li><strong>Write a JavaScript program to calculate the factorial of a number using the concept of recursion.</strong></li>
       <li><strong>Write a PHP program to swap the values of two variables.</strong></li>
       <li><strong>Write a PHP program to calculate the sum of 1 to 10.</strong></li>
       <li><strong>Write a PHP program to calculate the sum of all even numbers up to 100.</strong></li>
       <li><strong>Write a PHP program to display the prime numbers less than 100.</strong></li>
       <li><strong>How can we use array in PHP? Demonstrate with a suitable example.</strong></li>
+  <!--Aayush Shah start-->
+  <!--Avisek Start-->
       <li><strong>Write a PHP program to print the largest and smallest numbers among 10 elements of an array.</strong></li>
+      <div class="answer">
+    <p><strong>Answer:</strong></p>
+        <pre>
+        &lt;?php
+$numbers = array(12, 45, 67, 2, 89, 34, 22, 10, 99, 5);
+$max = max($numbers);
+$min = min($numbers);
+
+echo "Largest number: " . $max . "&lt;br&gt;";
+echo "Smallest number: " . $min;
+?&gt;
+        </pre>
+      </div>
+
+      
       <li><strong>Write a PHP program to sort the data of an array.</strong></li>
+      <div class="answer">
+    <p><strong>Answer:</strong></p>
+        <pre>
+          &lt;?php
+$data = array(34, 12, 56, 78, 1, 9, 3, 45);
+sort($data);
+
+echo "Sorted array: &lt;br&gt;";
+foreach ($data as $value) {
+    echo $value . " ";
+}
+?&gt;
+        </pre>
+      </div>
+
+    
       <li><strong>Write a PHP program to check if a string is a palindrome or not.</strong></li>
+      <div class="answer">
+    <p><strong>Answer:</strong></p>
+        <pre>
+          &lt;?php
+$str = "madam";
+$reversed = strrev($str);
+
+if ($str == $reversed) {
+    echo "$str is a palindrome.";
+} else {
+    echo "$str is not a palindrome.";
+}
+?&gt;
+        </pre>
+      </div>
+
+      
       <li><strong>How can you add JavaScript to an HTML page? Illustrate with the example.</strong></li>
+      <div class="answer">
+    <p><strong>Answer:</strong></p>
+        <p>JavaScript can be added to an HTML page using the <code>&lt;script&gt;</code> tag.</p>
+            <pre>
+              &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;JavaScript Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello!&lt;/h1&gt;
+    &lt;script&gt;
+        alert('This is a JavaScript alert!');
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+      </div>
+
+
+        
       <li><strong>What is event handling in JavaScript?</strong></li>
+       <div class="answer">
+    <p><strong>Answer:</strong></p>
+ <p>Event handling in JavaScript is the process of executing code when specific events occur in a webpage, such as clicks, keypresses, or page loads. This is done using event listeners or event attributes like <code>onclick</code>.</p>
+     <p>Example:</p>
+            <pre>
+&lt;button onclick="alert('Button clicked!')"&gt;Click Me&lt;/button&gt;
+            </pre>
+       </div>
+         
+  <!--Abhishek End-->
     </ol>
     <!-- Question List Ends -->
   </div>
